@@ -131,3 +131,34 @@ To reproduce the full pipeline, run the notebooks sequentially as follows:
 > Run the notebooks in this order to ensure all intermediate files and model artifacts are properly generated before evaluation.
 
 
+
+## 🛠 Technologies Used
+
+- **Language:** Python 3.x  
+
+- **Libraries:**
+  - pandas  
+  - numpy  
+  - scikit-learn  
+  - xgboost  
+  - lightgbm  
+  - torch / pytorch-tabtransformer  
+  - optuna  
+  - matplotlib  
+  - seaborn  
+  - plotly  
+
+- **Notebook Environment:**  
+  - Jupyter Notebook / Google Colab
+
+## 📌 Conclusion
+
+- Baseline models provide reliable churn predictions, with **TabTransformer** and **MLP** leading in performance.  
+- **Optuna hyperparameter tuning** further enhances MLP performance, improving **recall** and **F1-score**.  
+- The modular pipeline design allows easy extension to other **datasets** or **machine learning models**.
+
+---
+
+## 🔗 References
+
+- [Scikit-learn Documentation](https://scikit-learn.org/stable/)
